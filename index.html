@@ -1,0 +1,36 @@
+// a single file which you will be able to divide into sections.
+// Below is the hierarchy to repeat in your file:
+// |-- index.html
+// |-- main.js
+// In the index.html file, you will place the tags corresponding to a counter, that is to say, a paragraph in which to display the result, together with an “add”, a “remove” button, “add 10”, a “remove 10” button and reset button.
+// In the main.js file, you’ll need to include the following sections: actions, reducers, store, and main – which we will review in the next sections.
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Counter Redux</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <!-- Redux CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.1/redux.min.js"></script>
+
+</head>
+
+<body>
+  <!-- Render the store -->
+  <p id="render-store"></p>
+  <div class="buttons">
+    <button id="add">Add 1</button>
+    <button id="remove">Remove 1</button>
+    <button id="addTen">Add 10</button>
+    <button id="removeTen">Remove 10</button>
+    <button id="reset">Reset</button>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
